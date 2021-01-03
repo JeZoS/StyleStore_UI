@@ -1,5 +1,6 @@
 import "./women.css";
 import React from "react";
+import { Link } from "react-router-dom";
 import MainPage from "../Main/mainpage";
 class WomenCollection extends React.Component {
   render() {
@@ -18,17 +19,19 @@ class WomenCollection extends React.Component {
             <b>Women's Collections</b>
           </div>
           <div className="wears_women">
-            <div
-              className="hola_women"
-              style={{
-                backgroundImage:
-                  "url(" +
-                  "https://images.unsplash.com/photo-1590770357970-ec6480b368c0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" +
-                  ")",
-              }}
-            >
-              <h2 className="TAG_women">Women's Summer Wear</h2>
-            </div>
+            <Link to="/women_summer">
+              <div
+                className="hola_women"
+                style={{
+                  backgroundImage:
+                    "url(" +
+                    "https://images.unsplash.com/photo-1590770357970-ec6480b368c0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" +
+                    ")",
+                }}
+              >
+                <h2 className="TAG_women">Women's Summer Wear</h2>
+              </div>
+            </Link>
             <div
               className="hola_women"
               style={{
