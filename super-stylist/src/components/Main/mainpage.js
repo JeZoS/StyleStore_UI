@@ -1,15 +1,8 @@
 import React from "react";
-import { Route, BrowserRouter, Switch, Link, Redirect } from "react-router-dom";
-import SlideShow from "../home files/slideshow";
+import { Link } from "react-router-dom";
 import "./Home.css";
-import Home from "../Home";
-import MenCard from "../options/menCard";
 
 class MainPage extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <>

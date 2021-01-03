@@ -32,17 +32,19 @@ class WomenCollection extends React.Component {
                 <h2 className="TAG_women">Women's Summer Wear</h2>
               </div>
             </Link>
-            <div
-              className="hola_women"
-              style={{
-                backgroundImage:
-                  "url(" +
-                  "https://images.unsplash.com/photo-1601582067612-7a347874f27d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8&auto=format&fit=crop&w=500&q=60" +
-                  ")",
-              }}
-            >
-              <h2 className="TAG_women">Women's Winter Collection</h2>
-            </div>
+            <Link to="women_winter">
+              <div
+                className="hola_women"
+                style={{
+                  backgroundImage:
+                    "url(" +
+                    "https://images.unsplash.com/photo-1601582067612-7a347874f27d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8&auto=format&fit=crop&w=500&q=60" +
+                    ")",
+                }}
+              >
+                <h2 className="TAG_women">Women's Winter Collection</h2>
+              </div>
+            </Link>
             <div
               className="hola_women"
               style={{

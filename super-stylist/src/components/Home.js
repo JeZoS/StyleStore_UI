@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Route, BrowserRouter, Switch } from "react-router-dom";
+import { Route, BrowserRouter, Switch } from "react-router-dom";
 import Login from "./navbar/login";
 import Contact from "./navbar/contact";
 import About from "./navbar/about";
@@ -12,6 +12,8 @@ import LookBook from "./Main/lookbook";
 import MenCollection from "./Men/men";
 import WomenCollection from "./women/women";
 import WomenSummer from "./women/WomenSummer";
+import WomenWinter from "./women/WomenWinter";
+import SingleProd from "./women/SingleProd";
 class Home extends React.Component {
   constructor(props) {
     super(props);
@@ -78,6 +80,12 @@ class Home extends React.Component {
             </Route>
             <Route exact path="/women_summer">
               <WomenSummer />
+            </Route>
+            <Route exact path="/women_winter">
+              <WomenWinter />
+            </Route>
+            <Route exact path="/summer/:id">
+              <SingleProd />
             </Route>
           </Switch>
         </BrowserRouter>

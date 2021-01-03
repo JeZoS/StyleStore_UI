@@ -28,6 +28,7 @@ function Login(props) {
             </div>
             <div className="photo">
               <img
+                alt="df"
                 src="http://clipart-library.com/data_images/308739.jpg"
                 height="150px"
                 width="90%"
@@ -43,6 +44,7 @@ function Login(props) {
             <br></br>
             <div className="Google" onClick="">
               <img
+                alt="df"
                 src="https://www.devdiscourse.com/AdminFiles/NewsImages/01_06_2018_03_02_32_7499486.png?width=920&format=webp"
                 height="30px"
                 width="30px"
