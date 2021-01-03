@@ -1,0 +1,63 @@
+.navbar-bran,
+.stylist {
+  display: inline-block;
+  color: crimson;
+  font-size: 80px;
+}
+
+.Login {
+  color: black;
+}
+
+.Login,
+.wishlist,
+.About,
+.Contact {
+  color: black;
+  padding: 0 10px;
+}
+
+.containers {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  display: flex;
+  height: 100vh;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  color: pink;
+  font-size: 20px;
+}
+.tag {
+  color: pink;
+  font-size: 30px;
+}
+.welcome {
+  color: pink;
+  font-size: 50px;
+}
+.start {
+  background-color: rgb(201, 0, 40);
+  font-size: 20px;
+  padding: 5px 10px;
+  width: 25%;
+  color: pink;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.fas {
+  transform: scale(1.5);
+  margin-right: 10px;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.bbgg {
+  background-image: url(https://wallpapercave.com/wp/lexPfX0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

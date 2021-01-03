@@ -1,0 +1,19 @@
+.options {
+  justify-content: space-between;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: pink;
+  color: black;
+}
+.Men,
+.Women,
+.LookBook,
+.FashionTips {
+  padding-left: 15px;
+  padding-right: 15px;
+  color: black;
+}
+.Home {
+  color: black;
+}

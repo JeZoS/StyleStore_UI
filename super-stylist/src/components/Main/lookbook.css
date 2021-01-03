@@ -1,0 +1,65 @@
+.HinaKhan,
+.DeepikaPadukone,
+.sonamkapoor {
+  height: 400px;
+  width: 400px;
+  /* margin-left: 10px; */
+}
+.Anushka,
+.Priyanka {
+  height: 400px;
+  width: 400px;
+  /* margin-left: 10%; */
+}
+.statement {
+  border: 4px solid rgb(254, 130, 151);
+  position: absolute;
+  width: 75%;
+  right: -20px;
+  bottom: -20px;
+  border-radius: 10px;
+  /* margin: 0 10px; */
+  /* height: 25%;*/
+  /* width: 50%; */
+  /* position: relative; */
+  /* left: 25%;
+  top: 75%; */
+  text-align: center;
+  font-size: 15px;
+  background-color: rgb(159, 0, 32);
+  color: pink;
+  /* font-family: 'Times New Roman', Times, serif; */
+  padding: 2% 5% 5% 5%;
+}
+.look {
+  margin-bottom: 30px;
+  /* display: flex; */
+  /* flex-direction: row; */
+
+  /* margin: auto 2% 2% 2%; */
+}
+.celebrity {
+  position: relative;
+  /* margin-bottom: 10%; */
+
+  margin: 20px;
+}
+.lookbook {
+  /* margin-top: 5%; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.HinaKhan {
+  /* margin-top: 0%; */
+}
+.looktag {
+  background: linear-gradient(100deg, pink 30%, crimson 100%);
+  width: 80%;
+  margin: 10px 0;
+  border-radius: 15px;
+  color: black;
+  font-size: 40px;
+  text-align: center;
+}
