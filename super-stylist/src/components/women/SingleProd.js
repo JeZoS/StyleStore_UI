@@ -7,7 +7,6 @@ const SingleProd = () => {
   const params = useParams();
   const loc = useLocation();
   const url = loc.state.url;
-  console.log(params, loc);
   return (
     <>
       <MainPage />

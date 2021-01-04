@@ -14,6 +14,8 @@ import WomenCollection from "./women/women";
 import WomenSummer from "./women/WomenSummer";
 import WomenWinter from "./women/WomenWinter";
 import SingleProd from "./women/SingleProd";
+import SummerMen from "./Men/menSummer";
+import MenWinter from "./Men/menWinter";
 class Home extends React.Component {
   constructor(props) {
     super(props);
@@ -83,6 +85,12 @@ class Home extends React.Component {
             </Route>
             <Route exact path="/women_winter">
               <WomenWinter />
+            </Route>
+            <Route exact path="/men_winter">
+              <MenWinter />
+            </Route>
+            <Route exact path="/men_summer">
+              <SummerMen />
             </Route>
             <Route exact path="/product/:id">
               <SingleProd />
