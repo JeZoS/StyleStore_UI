@@ -39,8 +39,8 @@ const SummerWomen = () => {
             <img src={data[idx]} alt="f"></img>
             <Link
               to={{
-                pathname: `/summer/${idx}`,
-                state: { url: data[idx] },
+                pathname: `/product/${idx}`,
+                state: { url: data[idx], season: "summer" },
               }}
             >
               <h4>Explore</h4>

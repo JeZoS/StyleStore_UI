@@ -31,7 +31,12 @@ export class WomenWinter extends Component {
                 </div>
               </Link>
               <img src={data[idx]}></img>
-              <Link to="#">
+              <Link
+                to={{
+                  pathname: `/product/${idx}`,
+                  state: { url: data[idx], season: "winter" },
+                }}
+              >
                 <h4 style={{ backgroundColor: "crimson", color: "white" }}>
                   Explore
                 </h4>

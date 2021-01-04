@@ -84,7 +84,7 @@ class Home extends React.Component {
             <Route exact path="/women_winter">
               <WomenWinter />
             </Route>
-            <Route exact path="/summer/:id">
+            <Route exact path="/product/:id">
               <SingleProd />
             </Route>
           </Switch>
