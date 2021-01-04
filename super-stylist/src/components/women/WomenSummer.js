@@ -8,8 +8,7 @@ import { useHistory } from "react-router-dom";
 const SummerWomen = () => {
   const history = useHistory();
   const onClickHandler = (url) => {
-    console.log(url);
-    history.push("/summer/0", { url: url });
+    history.push("/summer/" + url, { url: url });
   };
   const data = [
     "https://4.imimg.com/data4/YN/IE/MY-26887096/ladies-summer-wear-250x250.jpg",
@@ -37,8 +36,13 @@ const SummerWomen = () => {
                 <i className="fas fa-heart"></i>
               </div>
             </Link>
-            <img src={data[idx]}></img>
-            <Link onClick={(e) => onClickHandler(data[idx])}>
+            <img src={data[idx]} alt="f"></img>
+            <Link
+              to={{
+                pathname: `/summer/${idx}`,
+                state: { url: data[idx] },
+              }}
+            >
               <h4>Explore</h4>
             </Link>
           </div>

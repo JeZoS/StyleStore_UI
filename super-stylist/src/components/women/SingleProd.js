@@ -1,7 +1,10 @@
 import React from "react";
+import { useParams, useLocation } from "react-router-dom";
 
-const SingleProd = ({ location }) => {
-  console.log(location);
+const SingleProd = () => {
+  const params = useParams();
+  const loc = useLocation();
+  console.log(params, loc);
   return <div>Bello</div>;
 };
 
