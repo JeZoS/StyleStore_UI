@@ -11,6 +11,8 @@ class MenCollection extends React.Component {
           style={{
             alignItems: "center",
             // justifyContent: "center",
+            //marginTop: "30px",
+            paddingTop: "100px",
             display: "flex",
             flexDirection: "column",
           }}

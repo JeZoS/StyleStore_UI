@@ -5,7 +5,10 @@ import "./Home.css";
 class MainPage extends React.Component {
   render() {
     return (
-      <>
+      <div
+        className="fixed_nav"
+        style={{ position: "fixed", zIndex: "10", width: "100%" }}
+      >
         <header className="deskstop-container">
           <nav className="navb">
             <div
@@ -81,7 +84,7 @@ class MainPage extends React.Component {
             </Link>
           </div>
         </div>
-      </>
+      </div>
     );
   }
 }

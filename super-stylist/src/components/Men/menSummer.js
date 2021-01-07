@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import MainPage from "../Main/mainpage";
 
@@ -16,9 +16,37 @@ const SummerMen = () => {
     "https://i.pinimg.com/originals/68/a4/57/68a4573f5235fb38ded6f97c435498dc.jpg",
   ];
   return (
-    <div>
+    <div style={{ position: "relative" }}>
       <MainPage />
-      <div className="summers">
+      <div className="filter_bar">
+        <div className="sidebar">
+          <div>
+            <h3 style={{ color: "crimson" }}>Filters</h3>
+            <h4>Skin Tone</h4>
+            <input type="radio" id="fair" name="skin_tone" value="fair"></input>
+            <label for="fair">Fair-Medium</label>
+            <br />
+            <input
+              type="radio"
+              id="dark"
+              name="skin_tone"
+              value="brown"
+            ></input>
+            <label for="dark">Medium-dark</label>
+          </div>
+          <div>
+            <h4>Body Type</h4>
+            <input type="radio" id="slim" name="body_type" value="slim"></input>
+            <label for="slim">Slim-Fit</label>
+            <br />
+            <input type="radio" id="fat" name="body_type" value="fat"></input>
+            <label for="fat">Fit-Heavy</label>
+          </div>
+          <button className="btn">Clear All</button>
+          <button className="btn">Apply</button>
+        </div>
+      </div>
+      <div className="summers" style={{ paddingTop: "100px" }}>
         {data.map((el, idx) => (
           <div key={idx}>
             <Link to="#">

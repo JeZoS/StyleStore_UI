@@ -1,13 +1,30 @@
 .summers {
+  position: absolute;
+  padding-top: 100px;
+  right: 0;
   display: flex;
+  width: 80%;
   flex-wrap: wrap;
-  justify-content: space-around;
-  padding-top: 20px;
+  /* background-color: aquamarine; */
+  /* justify-content: space-around; */
+  /* padding-top: 20px; */
+}
+
+.filter_bar {
+  position: fixed;
+  padding-top: 100px;
+  /* background-color: aquamarine; */
+  display: flex;
+  height: 100%;
+  width: 20%;
+
+  justify-content: center;
+  /* align-items: center; */
 }
 
 .summers div {
   background-color: rgb(254, 171, 185);
-  margin: 5px 10px;
+  margin: 5px auto;
   height: 300px;
   width: 250px;
   position: relative;
@@ -30,7 +47,7 @@
   width: 50%;
   background-color: rebeccapurple;
   padding: 10px;
-  z-index: 10;
+  z-index: 9;
   bottom: 0;
 }
 
